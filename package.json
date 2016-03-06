@@ -1,0 +1,25 @@
+{
+  "name": "setintervals",
+  "version": "1.0.0",
+  "description": "Better setInterval(...) for browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deathmood/setintervals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deathmood/setintervals/issues"
+  },
+  "homepage": "https://github.com/deathmood/setintervals#readme",
+  "devDependencies": {
+    "uglify-js": "^2.6.2"
+  },
+  "scripts": {
+    "build": "uglifyjs setintervals.js -c -m -o setintervals.min.js"
+  }
+}
