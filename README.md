@@ -10,8 +10,8 @@ setIntervals(function () {
 ```
 
 ### usage
- - use `setinterval.js` or `setinterval.min.js` directly in browser or
- - `npm install --save setinterval` and `var setInterval = require('setinterval')` with browserify/webpack
+ - use `setintervals.js` or `setintervals.min.js` directly in browser or
+ - `npm install --save setintervals` and `var setIntervals = require('setintervals')` with browserify/webpack
 
 ### it is tooo little - only 105 bytes minified :))
 
